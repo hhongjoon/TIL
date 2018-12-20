@@ -1,0 +1,52 @@
+/* universial Selector */
+* {
+    color: blue;
+}
+
+body{
+    background: white;
+}
+
+#lunch {
+    color: red;
+}
+
+#dinner{
+    font-weight: bold;
+}
+
+.container{
+    font-size: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-red{
+    color: red;
+}
+
+.text-blue{
+    color: blue;
+}
+
+.text-large {
+    font-size: 200%;
+}
+
+div p {
+    color: green;
+}
+
+div > p {
+    color: hotpink;
+}
+
+/* p + span {
+    background-color: blueviolet;
+} */
+
+p ~ span {
+    background-color: brown;
+}
