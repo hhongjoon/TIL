@@ -90,8 +90,8 @@ cities = {
     "부산": [2, -2, 9],
 }
 
-max_temp = -50
-min_temp = 50
+max_temp = -500
+min_temp = 500
 for name, temp in cities.items():
     #print(max(temp))
     if max(temp) > max_temp:
@@ -106,3 +106,4 @@ print("가장 추운 지역은 {}입니다.(온도 : {})".format(min_name,min_te
 print("가장 따듯한 지역은 {}입니다. (온도 : {})".format(max_name, max_temp))
 
 
+f
