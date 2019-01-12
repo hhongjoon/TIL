@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # 10799
+=======
+>>>>>>> a0d955d8a45d6cec1ec61936fb963fb07a3d6025
 aa = input()
 size = []
 piece = 0
