@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">  <!-- 한글 활용 위한 세팅  -->
+    
+    <title>Document</title> <!-- 높이를 늘려서 스크롤 나오게함-->
+    <style>                    
+        body {                       
+            height : 10000px; 
+        }
+        table, tr, td {
+            border: 1px solid darkgrey;                
+        }
+    </style>                                               <!-- 표에서 table, tr, td 나오면 선 생김-->
+</head>
+<body>
+    <h1 id = "edu">프로그래밍 교육</h1>
+    <!-- <a href="#python">파이썬</a> -->
+
+    <a href="#python">   <!-- 창 넘기는 태그 -->
+        <img src="images/python.png" alt="python">                   <!-- 사진으로 다른 곳 이동하는 방법  , alt는 나중에 식별할 때 사용 될 수도 있음 //   image는 폴더에 넣어야함-->
+    </a>
+    
+    <a href="reference.html">참고사이트</a>  <!--이렇게 html로 넘길 수 도 있음 -->
+
+    <hr>  <!--줄 긋는 것 -->
+    
+    <h2><a href="https://docs.python.org/3/" target="_blank">파이썬</a> </h2>         <!--   target = "_blank" 해주명 새로운 창을 띄우며 넘어감-->
+    <h3>Number type</h3>
+    <p>파이썬에서 숫자형은 아래와 같이 있다</p>
+    
+
+    <!-- 이렇세 스타일 넣을 수 있음 -->
+    <ol style="list-style-type: hiragana">            <!--order list  그냥 하면 번호붙어서 나오고 스타일 넣어주면 해당 템플릿 붙음 -->    
+        <li>int</li>
+        <li>float</li>
+        <li>complex</li>
+        <li><del>str</del></li>                       <!-- 취소선 생김-->
+    </ol>
+
+   
+    
+    <p><strong>Sequence</strong> </p>                 <!-- 강조 -->
+    <p>파이썬에서 시퀀스는 아래와 같이 있다.<p>
+    
+    <p><strong>시퀀스는 for문을 돌릴 수 있다!!</strong> </p>
+
+    <ol>
+        <li>str</li>
+        <li>list</li>
+        <li>tuple</li>
+        <li>range</li>
+    </ol>
+ 
+    <hr>
+    <h2><a href="https://www.mozilla.org/ko/">웹</a></h2>          <!-- 하이퍼태그 다는 것-->
+    <h3>기초</h3>
+
+    <ul style="list-style-type: square">                <!-- unorder list 번호 안붙음-->
+        <li>HTML</li>
+        <li>CSS</li>
+
+        <!-- 위에서 id 값 지정하고 올 수 있음 -->
+        <li id = "python">여기는 파이썬</li>            <!-- id 값 넣음으로 써 위에 #id 부분을 누르면 여기로 오게 됨-->
+
+    </ul>
+    <section id = "link">
+        <a href="https://www.google.com" target = "_blank">  <button>절대 url</button> </a>  <!-- 이렇게 버튼으 놓을 수도 있음-->
+        <a href="reference.html" target = "_self">상대 url</a>
+        <a href="#edu">edu</a>
+        <a href="mailto:test@gmail.com"> 링크로 메일 보내기</a>
+    </section>
+    
+    
+    <section>
+        <img src ="images/python.png" width="500px" height="300px" alt="python">     <!-- 이미지 조절 가능-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nm-XKbMZb_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    
+    <section>     <!-- 여기부터 table      tr: table row         table heading         -->
+        <table>
+            <tr>
+                <th></th>                
+                <th>월</th>                
+                <th>화</th>                
+                <th>수</th>                
+            </tr>
+            <tr><!-- 두번째 로우 -->
+                
+                <td>A코스</td>
+                <td colspan ="2">짬뽕</td> <!-- colspan 이용해서 두칸 먹임 짬뽕이 두칸 -->
+                <td rowspan ='2'>초밥</td> <!--  row span  아래로 차지-->
+            </tr>
+            <tr>
+                <td>B코스</td>
+                <td>김치찌개</td>
+                <td>삼계탕</td>
+                
+            </tr>       
+        </table>
+
+
+    </section>
+
+    <section> <!--  시간표 만들기-->
+        <h1>2019 타임테이블</h1>
+        <table>
+            
+            <tr>
+                
+                <th><h3>TIME</h3></th>
+                <th><h3>INDOOR</h3></th>
+                <th colspan="2"><h3>OUTDOOR</h3></th>
+               
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>소극장</td>
+                <td>잔디마당</td>
+                <td>대공연장</td>
+            </tr>
+
+            <tr>
+                <td>10:00</td>
+                <td rowspan="2">안녕하신가영</td>
+                <td></td>
+                <td>10CM</td>
+            </tr>
+            
+            <tr>
+                <td>13:00</td>
+                <td rowspan="2">선우정아</td>
+                <td rowspan="2">참깨와 솜사탕</td>
+            </tr>
+            
+            <tr>
+                <td>15:00</td>
+                <td></td>                     <!-- 빈칸은 적어야됨-->
+                                            <!-- 위에 span 영향을 받으면 안적어도 됨-->
+            </tr>
+
+            <tr>
+                <td>17:00</td>
+                <td>크러쉬</td>
+                <td></td>
+                <td>폴킴</td>
+            </tr>
+
+        </table>
+    </section>
+
+    <section> <!-- form 실습-->
+        <h2>form input</h2>
+        <form action="https://www.google.com/search?">  <!-- 아래 id 값 q와 함께 검색창으로 넘어감-->
+            텍스트 : <input type="text" name="q" autofocus><br> <!-- 새로고침시 바로 클릭창 가있게끔-->
+            이메일 : <input type="email" autocomplete="on"><br> <!-- 사용했던 메일 뜸-->
+            비밀번호 : <input type="password"><br>
+            날짜 : <input type="date"><br>
+            <input type="hidden" name="해커" value="이사람은 해커다"><!-- 히든으로 안보이게 넘겨줄 수 있음// 클릭하면 이름 값 붙여서 넘어감-->
+            <input type="submit" value="전송!"><br>
+            <!-- radio button-->
+            <input type="radio" name ="gender" value="female" checked>여자 <br>    <!-- 타입고르고 성에 따라 value값 넘김-->
+            <input type="radio" name="gender" value="male">남자<br><br>
+            
+            <!-- 체크박스 -->
+            <input type="checkbox" name ="option" value="1"> King <br>
+            <input type="checkbox" name ="option" value="2"> Queen <br>
+            <input type="checkbox" name ="option" value="3"> Prince <br>
+            <!-- 숫자 조절 칸-->
+            <input type="number" name="size" min="10" max = "60" step="10" value="15">
+            <!-- 빈칸은 적어야됨-->
+            <select name ="country">
+                <option value="korea">한국</option>
+                <option value="japan" disabled>일본</option>  <!-- 이렇게 못 쓰게 할 수 도있음-->
+                <option value="china" selected>중국</option>  <!-- 기본클릭 바꿀 수 있음-->
+            </select>
+
+        </form>
+
+    
+    </section>
+    <hr>
+    <section>
+        <H1>FORM</H1>
+        <p>주문서를 작석하여 주십시오</p>
+        이름 : <input type="text" name = "name" placeholder="이름을 입력해주세요"><br>   <!-- 초기값 넣는 것-->
+        날짜 : <input type="text" name = "date" placeholder="2019. 01. 03."> <br>
+
+        <h2>1.샌드위치 선택</h2>
+
+        <input type="radio" name = "option" value="1" checked> 에그마요 <br>
+        <input type="radio" name = "option" value="1"> 이탈리안 비엠티 <br>
+        <input type="radio" name = "option" value="1"> 터키 베이컨 아보카도 <br>
+        <hr>
+
+        <h2>2. 사이즈 선택</h2>
+        <input type="number" name ="size" min="15" max = "30" step="15" value="15">
+        <hr>
+
+        <h2>3. 빵</h2>
+        <select name="bread">
+            <option value ="허니오트" selected>허니오트</option>
+            <option value ="플랫브레드" disabled>플랫브레드</option>
+            <option value ="하티이탈리안">하티 이탈리안</option>
+
+        </select>
+        <hr>
+
+        <h2>4. 야채/소스</h2>
+        <input type="checkbox" name ="option" value="1">토마토<br>
+        <input type="checkbox" name ="option" value="2">오이<br>
+        <input type="checkbox" name ="option" value="3">할라피뇨<br>
+        <input type="checkbox" name ="option" value="4">핫칠리<br>
+        <input type="checkbox" name ="option" value="5">바베큐<br>
+
+        <input type="submit" value="전송">
+
+
+    </section>
+
+
+    <section>
+        <table>
+            <tr>
+                <td>d</td>
+                <td>d</td>
+                <td>d</td>
+            </tr>
+        </table>
+
+
+
+
+    </section>
+</body>
+</html>
