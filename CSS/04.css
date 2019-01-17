@@ -1,0 +1,64 @@
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+
+.padding-10{
+    /* 상화좌우 두께10px씩 */
+    padding: 10px;
+    color: aquamarine
+}
+.border-box{
+    /* 보더박스를 설정하면 맞춰진다.
+    padding도 들어가고 square에 맞춘다. */
+    box-sizing: border-box;
+    /* margin auto 반반나누어줌 */
+    margin:auto
+}
+
+.margin-50{
+
+  /*4개일 때       top right bottom left 순서 */
+    
+  /* 3개일 때 top right,left bottom */
+  /* 2개일 때 t,b l,r */
+  /* max-resolution: 50px 50px 50px 50px; */
+  margin : 50px;
+}
+.margin-top-100{
+    /* 위에서부터 100px 먹음 */
+    margin-top: 100px
+}
+
+.margin-3{
+    margin: 10px 20px 30px;
+}
+
+.border{
+    /* border-style:1px rgb(250, 9, 9) dashed; */
+    border-top-style: double;
+    border-bottom-style: solid;
+    border-left-style: inset;
+    border-bottom-color: aqua;
+}
+
+.circle{
+    width: 200px;
+    height:200px;
+    background-color: gold;
+    border-radius: 100px;
+    /* 또는 */
+    border-radius:50%;
+}
+
+.rubby{
+    background-color: rgb(110, 39, 124);
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 155px;
+    border-top-right-radius: 155px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    opacity: 0.5;
+}

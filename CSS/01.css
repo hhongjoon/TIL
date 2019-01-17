@@ -1,0 +1,25 @@
+html{
+    font-size: 20px;
+}
+
+
+
+
+ol,ol li{
+    font-size: 1.2rem;
+    color: rgb(46, 3, 40)
+}
+
+ul ul li{
+    font-size: 1.2em;
+}
+
+.vh {                   
+    font-size: 5vh;
+    color: rgba(12, 115, 212, 0.5)  /* 투명도 조정 가능*/ 
+}
+
+.vw{
+    font-size: 5vw;
+    color: darkgoldenrod
+}

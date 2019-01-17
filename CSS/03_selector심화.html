@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="03.css">
+</head>
+<body>
+    <!-- 그룹선택자적용-->
+    <p>그룹 선택자 적용</p>
+    <h3>그룹 선택자 적용</h3>
+    <p class="black_bg">그룹</p>   <!-- 직접 차지하고 있는 범위가 끝까지라서 블랙 존재-->
+    <p class="white">그룹</p>
+    <hr>
+
+    <div class ="red"></div>  <!-- 박스 만들기  // 만들어서 적용시킨 후 부분적인 것 컨트롤-->
+    <div class ="blue"></div>
+    
+    <div></div>
+    <hr>
+    
+    <!-- 인접선택자, 또는 형제 선택자 -->
+    <h1>H1</h1>
+    <p>h1의 형제</p>
+    <hr>
+
+    <!-- 자식선택자 -->
+    <ol>
+        <li>ol 태그의 자식</li>             <!-- 바로 아래만 자식이다.-->
+    </ol>
+
+    <!--emmet  사이트에서 찾아쓰자--> 
+    <!-- <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+    </ul> -->
+
+    <!--    ol#choco>li*5      -->
+    <ol id="choco">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+    <div id="choco">
+        <ol> 
+            <!-- 겹처서 태그먹음 -->
+            <li>화이트초코</li>        
+        </ol>
+        
+    </div>
+
+    <ul>
+        <div>
+            <li>자식1</li>
+            <li>자식2</li>
+            <li>자식3</li>
+        </div>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
