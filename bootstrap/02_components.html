@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <style>
+        body {
+            height: 10000px;
+        }
+    </style>
+
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- alert -->
+    <div class="alert alert-danger text-center" role="alert">
+        A simple primary alert—check it out!
+    </div>
+
+    <div class="alert alert-info" role="alert">
+        A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        <hr>
+        Hey there !!!?
+    </div>
+
+    <span class="badge badge-pill badge-primary">Primary</span>
+
+    <!-- badge:link로 활용하게되면 hover 속성이 입혀집니다. -->
+    <a href="#" class="badge badge-warning">Warning</a>
+
+
+    <!-- 버튼 -->
+    <button type="button" class="btn btn-warning">Warning</button>
+
+    <button type="button" class="btn btn-outline-light">Light</button>
+    <button type="button" class="btn btn-outline-light">Light</button>
+
+    <input class="btn btn-primary disabled" type="submit" value="Submit">
+
+    <br>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+            <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+        </label>
+        <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+        </label>
+        <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+        </label>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/04/ab/04/22/taeshin-farm.jpg" class="card-img-top"
+            alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">자 떠나자 당</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <!-- 회전목마 -->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="data:image/jpeg;base64,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"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://t1.daumcdn.net/cfile/tistory/115CE6274A49AD749E" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://fimg4.pann.com/new/download.jsp?FileID=40560446" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+    <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false"
+            aria-controls="collapseExample">
+            Link with href
+        </a>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2"
+            aria-expanded="false" aria-controls="collapseExample">
+            Button with data-target
+        </button>
+    </p>
+    <div class="collapse" id="collapseExample1">
+        <div class="card card-body">
+            왼
+        </div>
+    </div>
+    <div class="collapse" id="collapseExample2">
+        <div class="card card-body">
+            오른
+        </div>
+    </div>
+
+    <!-- dropdowns -->
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </div>
+
+    <!-- form -->
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- jumbotron -->
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+            featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <!-- modal 팝업창 느낌-->
+
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- media object -->
+    <div class="media">
+        <img src="http://lorempixel.com/64/64" class="mr-3" alt="...">
+        <div class="media-body">
+            <h5 class="mt-0">Media heading</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+            odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+            fringilla. Donec lacinia congue felis in faucibus.
+        </div>
+    </div>
+
+    <!-- progress -->
+    <div class="progress mt-3">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="progress mt-3">
+        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div>
+    <div class="progress mt-3">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div>
+    <div class="progress mt-3">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div>
+    <div class="progress mt-3">
+        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div>
+
+    <!-- spinners -->
+    <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-secondary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+
+    <!-- pagination -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination ">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+
+      
+
+
+
+
+      <!-- Navbar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
