@@ -4,7 +4,7 @@ import requests
 from pprint import pprint
 import datetime
 from datetime import timedelta
-from PIL import Image
+#from PIL import Image
 def func1():
 #10주간 데이터 중 TOP 10, 
 
