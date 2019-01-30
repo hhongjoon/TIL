@@ -1,0 +1,44 @@
+header{
+    height: 350px;
+    width: 100%;
+    background: url(background.jpg);
+}
+
+.head_box{
+    background-color: white;
+    width: 20%;
+    height: 50%;
+    
+    /* 상하 정렬 */
+    align-items: center;
+    
+
+    margin:auto;
+    
+    text-align: center;
+    
+    
+}
+
+.fixed{
+    position: fixed;
+    background-color:rgb(139, 189, 170);
+    bottom:0px;
+    left:0px;
+    height:50px;
+    width: 100%
+}
+
+.bottom-pd{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+h2{
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+p{
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Black Han Sans', sans-serif;
+}

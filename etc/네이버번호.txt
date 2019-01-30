@@ -1,0 +1,8 @@
+Z6Qvw8wjfwB0DfBRNfXK
+
+Xaaid_siVo
+
+
+curl "https://openapi.naver.com/v1/search/movie.xml?query=%EC%A3%BC%EC%8B%9D&display=10&start=1&genre=1" \
+    -H "X-Naver-Client-Id: {Z6Qvw8wjfwB0DfBRNfXK}" \
+    -H "X-Naver-Client-Secret: {Xaaid_siVo}" -v

@@ -1,0 +1,67 @@
+header{
+    background: url(assets/background.jpg);
+    /* opacity: 0.5; */
+    height: 350px;
+    width: 100%;
+    background-color: #d8c8c8;
+    background-blend-mode: lighten;
+}
+
+header:hover{
+    /* -webkit-filter: grayscale(100%) blur(2px); */
+    background-blend-mode: unset;
+    /* opacity: 1;
+    height: 350px;
+    width: 100%;
+    background: url(assets/background.jpg); */
+    /* transition: .4s ease-in-out; */
+}
+
+.head_box{
+    /* 상하 정렬 */
+    
+    align-items: center;
+    color: black ; 
+
+    margin:auto;
+    
+    text-align: center;
+    /* mix-blend-mode: difference; */
+}
+
+
+
+
+.fixed{
+    position: fixed;
+    background-color:rgb(139, 189, 170);
+    bottom:0px;
+    left:0px;
+    height:50px;
+    width: 100%
+}
+
+.bottom-pd{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+h2{
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+p{
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.font2{
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+
+.hr_sub{
+    width: 70px;
+    border: solid yellow;
+}
