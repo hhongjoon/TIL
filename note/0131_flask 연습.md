@@ -20,20 +20,22 @@ post : 보이지 않는다. 하지만 보안X
 
 - ## ping pong _ POST방식
 
-  #### ping 에서 name을 달아서 pong으로 넘김, 
+  #### ping 에서 name을 달아서 pong으로 넘김, (form tag 사용)
 
   #### 이때 route를 통해서 다시 pong으로 뿌려준다.
 
   #### pong에서는 받아온 값을 출력해준다.
 
 ```python
+from flask Import Flask, render_template, request
+
 @app.route("/ping_new")
 def ping_new():
     return render_template('ping_new.html')
 
 @app.route("/pong_new", methods=["POST"])
 def pong_new():
-    user = request.form['q']
+    user = request.form['q']    #ping에서 넘겨준 이름표 'q'
     return render_template('pong_new.html', html_user = user)
 ```
 
