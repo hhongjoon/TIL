@@ -38,7 +38,6 @@
        return 'hello there!'
    ```
 
-   
 
 ```
 https://gist.github.com/edujunho/bee20c196ecacc3e8cdf068b4ec64d9f
@@ -99,8 +98,6 @@ pyenv-virtualenv: remove /home/ubuntu/.pyenv/versions/3.6.7/envs/test-venv?  ---
    flask에서 return 할 때는 str만 가능
    ```
 
-   
-
 6. flask variable routing
 
    ```python
@@ -109,8 +106,6 @@ pyenv-virtualenv: remove /home/ubuntu/.pyenv/versions/3.6.7/envs/test-venv?  ---
        # return f"안녕{name}"
        return render_template('greeting.html', html_name = name)
    ```
-
-   
 
 7. render template
 
