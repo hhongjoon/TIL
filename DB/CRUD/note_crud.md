@@ -45,7 +45,9 @@ class User(db.Model):
     username = db.Column(db.String(80), unique=True, nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False)
     
-    def __repr__(self):                
+    
+    #생략가능 오류명 줄여주기 위해
+    def __repr__(self):                 
         return f"<User '{self.username}'>"
 ```
 
@@ -114,6 +116,12 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db.init_app(app)
 migrate = Migrate(app,db)
+
+# DB시작할 때 명령어
+#flask db init
+#flask db migrate
+#flask db upgrade
+
 
 
 #뷰함수 / 보여주기 때문
