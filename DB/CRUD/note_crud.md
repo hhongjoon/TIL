@@ -1,4 +1,4 @@
-### orm
+### boorm
 
 - 장점
   - 객체지향적인 코드로 인해 직관적이고 비즈니스로직에 더 집중할 수 있다.
@@ -12,6 +12,19 @@
   오로지  orm으로만은 거대한 서비스를 구현하기가 어렵다.
 
   어느정도 속도저하, orm을 거쳐 가기때문 (미비함)
+
+```
+
+```
+
+
+
+##### SQLAlchemy datatype
+##### Integer String Text DateTime Float Boolean
+
+
+
+
 
 
 
@@ -107,6 +120,7 @@ migrate = Migrate(app,db)
 @app.route('/')
 def index():
     # url_for('index')=>>> '/'
+    # 검색해서 users에 저장
     users = User.query.all()
     return render_template('index.html', users=users)
 
