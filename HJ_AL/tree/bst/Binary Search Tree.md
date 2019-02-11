@@ -53,6 +53,7 @@ class BinaryTree
                     if temp.right ==None:
                         temp.right = Node(key,value)      ## 마찬가지
                         break
+                    temp = temp.right
 ```
 
 ```
