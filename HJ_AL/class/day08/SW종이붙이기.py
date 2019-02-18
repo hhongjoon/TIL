@@ -1,3 +1,6 @@
+import sys
+sys.stdin = open("종이붙이기.txt")
+
 def fact(n):
     result = 1
     for i in range(n,0,-1):

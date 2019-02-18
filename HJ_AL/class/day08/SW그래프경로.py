@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("graph_input.txt")
+sys.stdin = open("그래프경로.txt")
 
 
 def solve1(start, end, mat):

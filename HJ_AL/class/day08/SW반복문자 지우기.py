@@ -1,3 +1,6 @@
+import sys
+sys.stdin = open("반복문자지우기.txt")
+
 def solve(data,stack):
     for i in data:
         stack.append(i)

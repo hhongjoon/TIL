@@ -54,4 +54,8 @@ for _ in range(10):
     #print(set(root2) - set(root1))
 
     #print(root)
-    print(f"#{_+1} {solve(mat,list(root))}")
+    result = solve(mat, list(root))
+    print(f"#{_+1} ",end=" ")
+    for i in result:
+        print(i,end=" ")
+    print()

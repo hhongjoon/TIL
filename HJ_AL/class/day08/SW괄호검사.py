@@ -1,3 +1,5 @@
+import sys
+sys.stdin = open("괄호검사.txt")
 def result(input_str,stack):
     for i in input_str:
         if i == "{" or i =="(":
