@@ -1,3 +1,6 @@
+import sys
+sys.stdin = open("회전.txt")
+
 T = int(input())
 for _ in range(T):
     ea, nums = map(int,input().split())

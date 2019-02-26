@@ -1,5 +1,5 @@
-# import sys
-# sys.stdin = open("미로의 거리.txt")
+import sys
+sys.stdin = open("미로의 거리.txt")
 
 def findresult(i,j,size,length):
 
@@ -29,7 +29,7 @@ for _ in range(T):
     for i in range(size):
 
         mat.append(list(map(int,list(input()))))
-    print(mat)
+    #print(mat)
 
 
     for i in range(size):

@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("피자굽기.txt")
+sys.stdin = open("피자.txt")
 
 def solve(N):
     global pizzas
