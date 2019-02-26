@@ -3,6 +3,12 @@
     height: 100px;
     background-color: darkgrey;
 }
+.square_relative{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+}
 
 .relative-box{
     position: relative; 
@@ -14,8 +20,8 @@
 .absolute-box{
     position: absolute;
     background-color: black;
-    /* top :300px;
-    left :150px; */
+    top :10px;
+    left :10px;
 }
 
 .fixed{

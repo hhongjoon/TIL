@@ -18,13 +18,13 @@ div{
 .blue{
     background-color: blue;
 }
-.red+ .blue + div{  /* h1의 형제 태그인 p를 바꾸는 거 */
+.red+ .blue + div{  /* h1의 형제 태그인 p를 바꾸는 것 */
     /* 아래 응용 */
     background-color: purple;
 }
 
 
-/* h1의 형제 태그인 p를 바꾸는 거 */
+/* h1의 형제 태그인 p를 바꾸는 것 */
 h1+p {
     color: darkgreen;
 }

@@ -14,7 +14,7 @@
     padding도 들어가고 square에 맞춘다. */
     box-sizing: border-box;
     /* margin auto 반반나누어줌 */
-    margin:auto
+    margin:auto;
 }
 
 .margin-50{
@@ -28,7 +28,7 @@
 }
 .margin-top-100{
     /* 위에서부터 100px 먹음 */
-    margin-top: 100px
+    margin-top: 100px;
 }
 
 .margin-3{
@@ -61,4 +61,12 @@
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     opacity: 0.5;
+}
+.test0225{
+    background-color: rgb(110, 39, 124);
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 155px;
+    
+
 }

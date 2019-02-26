@@ -11,6 +11,10 @@
         table, tr, td {
             border: 1px solid darkgrey;                
         }
+
+        #edu{
+            
+        }
     </style>                                               <!-- 표에서 table, tr, td 나오면 선 생김-->
 </head>
 <body>
@@ -81,8 +85,8 @@
     <section>     <!-- 여기부터 table      tr: table row         table heading         -->
         <table>
             <tr>
-                <th></th>                
-                <th>월</th>                
+                           
+                <td>월</td>                
                 <th>화</th>                
                 <th>수</th>                
             </tr>
@@ -96,6 +100,8 @@
                 <td>B코스</td>
                 <td>김치찌개</td>
                 <td>삼계탕</td>
+                <!-- 위에서 row span으로 먹고 있으면, 넘어가서 생성 -->
+                <td>이건뭘까?</td>  
                 
             </tr>       
         </table>
@@ -167,7 +173,6 @@
                 <input type="radio" name ="q" value="male">남자
                 <input type="submit" value="전송">
 
-
             </form>
             
             
@@ -176,7 +181,7 @@
             <input type="checkbox" name ="option" value="2"> Queen <br>
             <input type="checkbox" name ="option" value="3"> Prince <br>
             <!-- 숫자 조절 칸-->
-            <input type="number" name="size" min="10" max = "60" step="10" value="15">
+            <input type="number" name="size" min="10" max="60" step="10" value="15">
             <!-- 빈칸은 적어야됨-->
             <select name ="country">
                 <option value="korea">한국</option>
@@ -197,9 +202,11 @@
 
         <h2>1.샌드위치 선택</h2>
 
-        <input type="radio" name = "option" value="1" checked> 에그마요 <br>
-        <input type="radio" name = "option" value="1"> 이탈리안 비엠티 <br>
-        <input type="radio" name = "option" value="1"> 터키 베이컨 아보카도 <br>
+        <input type="radio" name = "optn" value="1"> 에그마요 <br>
+        <input type="radio" name = "optn" value="2"> 참치 <br>
+        <input type="radio" name = "option" value="3"> 이탈리안 비엠티 <br>
+        <input type="radio" name = "option" value="4"> 터키 베이컨 아보카도 <br>
+        
         <hr>
 
         <h2>2. 사이즈 선택</h2>
