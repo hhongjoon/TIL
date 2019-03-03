@@ -15,6 +15,7 @@
     box-sizing: border-box;
     /* margin auto 반반나누어줌 */
     margin:auto;
+    border:5px solid;
 }
 
 .margin-50{
