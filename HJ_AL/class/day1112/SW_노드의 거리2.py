@@ -38,4 +38,4 @@ for _ in range(T):
     visited=[0]*(V+1)
     temp = []
     final_len = find_result(start, goal, temp)
-    print(f"#{_+1} {final_len}")
+    print("#{0} {1}".format(_+1,final_len))
