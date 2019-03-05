@@ -5,11 +5,11 @@ def get_loc(row,col,loc):
     while True:
         if row == 1 or col == 1:
             order = loc -base
-            print(level,row,col,order)  # 여기 풀 것
+            # print(level,row,col,order)  # 여기 풀 것
             if row == 1:
-                return level+1,
+                return level+1,level+order
             if col == 1:
-                return
+                return level+order,level+1
 
             pass
         else:  # 둘 다 1 은 아님
@@ -42,8 +42,8 @@ def main():
     if loc > size:
         print(0)
         return
-    print(get_loc(row,col,loc))
-
+    result = get_loc(row,col,loc)
+    print("{} {}".format(result[0],result[1]))
 
 
 

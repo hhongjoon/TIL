@@ -1,3 +1,6 @@
+import sys
+sys.stdin = open("이진탐색.txt")
+
 def inorder(num,N):
     global idx
     if num<=N:

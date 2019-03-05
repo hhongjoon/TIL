@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("이진힙.txt")
+sys.stdin=open("이진 힙.txt")
 
 def cal_heap(num,ea):
     for i in range(1,ea+1):

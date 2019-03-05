@@ -1,3 +1,6 @@
+import sys
+sys.stdin = open("노드의 합.txt")
+
 def sum_leaf(N,L):
     for i in range(N,0,-1):
         if i == L:

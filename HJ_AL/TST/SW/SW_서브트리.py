@@ -1,3 +1,6 @@
+import sys
+sys.stdin = open("서브트리.txt")
+
 def preorder(given):
     global count
     count += 1
