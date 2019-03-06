@@ -1,26 +1,32 @@
+def checknum(n):
+    if n == 3:
+        return 1000000,3
+    elif n ==2:
+        return 100,2
+    else:
+        return 1 ,1
+
 def main():
-
-    N = int(input())
-
-    p1=[]
-    p2=[]
-    p3=[]
-    for i in range(N):
-        s1, s2, s3 = map(int,input().split())
-        # print(s1,s2,s3)
-        p1.append(s1)
-        p2.append(s2)
-        p3.append(s3)
-
-    result_score = max(sum(p1),sum(p2),sum(p3))
-    
-
-
-
-
-
-
+    T = int(input())
+    table = [ [0]*2 for i in range(3) ]
+    # print(table)
+    for i in range(T):
+        data = list(map(int,input().split()))
+        for j in range(len(data)):
+            big, small = checknum(data[j])
+            table[j][0] += big
+            table[j][1] += small
+    maxval = -1
+    for i in range(len(table)):
+        if maxval<=table[i][0]:
+            if maxval == table[i][0]:
+                print(0, table[i][1])
+                return
+            maxval = table[i][0]
+            realval = table[i][1]
+            who = i
+    print(who+1,realval)
 
 
-if __name__ == "__main__":
+if __name__ =="__main__":
     main()
