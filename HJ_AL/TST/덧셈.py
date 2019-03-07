@@ -25,5 +25,12 @@ def main():
     print('NONE')
 
 
+def main2():
+    # 숫자 자를 때 a = '12345'
+    # int(a[:]) 가능
+    pass
+
+
+
 if __name__=="__main__":
     main()

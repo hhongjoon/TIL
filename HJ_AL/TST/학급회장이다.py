@@ -17,15 +17,23 @@ def main():
             table[j][0] += big
             table[j][1] += small
     maxval = -1
-    for i in range(len(table)):
-        if maxval<=table[i][0]:
-            if maxval == table[i][0]:
-                print(0, table[i][1])
-                return
+    flag = False
+    for i in range(3):
+
+        if table[i][0] >= maxval:
+            if table[i][0] == maxval:
+                temp = maxval
+                flag = True
+
             maxval = table[i][0]
             realval = table[i][1]
-            who = i
-    print(who+1,realval)
+            who = i+1
+
+    if flag and temp == maxval:
+        print(0,realval)
+    else:
+        print(who, realval)
+
 
 
 if __name__ =="__main__":
