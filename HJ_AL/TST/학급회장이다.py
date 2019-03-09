@@ -1,8 +1,8 @@
 def checknum(n):
     if n == 3:
-        return 1000000,3
+        return 10000000000,3
     elif n ==2:
-        return 100,2
+        return 1000,2
     else:
         return 1 ,1
 
@@ -16,15 +16,18 @@ def main():
             big, small = checknum(data[j])
             table[j][0] += big
             table[j][1] += small
+    print(table)
     maxval = -1
+    count = 0
     for i in range(len(table)):
         if maxval<=table[i][0]:
             if maxval == table[i][0]:
-                print(0, table[i][1])
-                return
+                count+=1
             maxval = table[i][0]
             realval = table[i][1]
             who = i
+    if count >=2:
+
     print(who+1,realval)
 
 
