@@ -18,6 +18,7 @@ def main():
             table[j][1] += small
     print(table)
     maxval = -1
+<<<<<<< HEAD
     count = 0
     for i in range(len(table)):
         if maxval<=table[i][0]:
@@ -29,6 +30,25 @@ def main():
     if count >=2:
 
     print(who+1,realval)
+=======
+    flag = False
+    for i in range(3):
+
+        if table[i][0] >= maxval:
+            if table[i][0] == maxval:
+                temp = maxval
+                flag = True
+
+            maxval = table[i][0]
+            realval = table[i][1]
+            who = i+1
+
+    if flag and temp == maxval:
+        print(0,realval)
+    else:
+        print(who, realval)
+
+>>>>>>> 803676194e5560a1498b999a6464fb9e27911c2c
 
 
 if __name__ =="__main__":
