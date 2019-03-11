@@ -13,27 +13,28 @@ def findgoal(start,goal):
         new = []
 
         for j in temp:
-            print(j)
+            # print(j)
             for i in range(4):
                 nx = j[0]+dx[i]
                 ny = j[1]+dy[i]
+                # print(nx,ny)
                 if iswall(nx,ny) or mat[nx][ny] == 0:
                     continue
-                if mat[nx][ny] == 1:
-                    mat[x][y] = 0
-                    x,y = nx,ny
-                    new.append((x,y))
 
+                if mat[nx][ny] == 1:
+                    mat[nx][ny] = 0
+                    new.append((nx,ny))
 
         cnt +=1
-        if x == goal[0] and y ==goal[1]:
+        # print(new, cnt)
+        if (goal[0],goal[1]) in new:
             return cnt
 
 
 
 global row, col
 row, col = map(int,input().split())
-mat= [  list(map(int,input()))  for i in range(4) ]
+mat= [  list(map(int,input()))  for i in range(row) ]
 # print(mat)
 start = (0,0)
 goal = (row-1,col-1)

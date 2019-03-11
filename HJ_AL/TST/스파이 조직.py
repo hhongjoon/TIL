@@ -9,8 +9,6 @@ def cal(dep):
                 val += data.pop(0)
             else:
                 break
-
-
     if val =='<':
         cal(dep+1)
         return cal(dep)
@@ -18,10 +16,8 @@ def cal(dep):
         return
     else:
         if dep == level:
-            print(val,end=" ")
+            print(val, end=" ")
         return cal(dep)
-
-
 
 
 
