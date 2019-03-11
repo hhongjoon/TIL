@@ -12,7 +12,13 @@ def goant():
                 if locs[i] == locs[j]:
                     go[i] *= -1
                     go[j] *= -1
-                if abs(locs[i] - locs[j]) <=1 and go[i]*go[j] == -1:
+                if locs[j] - locs[i] <=1 and go[i]*go[j] == -1 and go[i]>go[j]:
+                    if locs[j] -locs[i] >0:
+                        locs[j] -= 1
+                        locs[i] += 1
+                    else:
+                        locs[i] -= 1
+                        locs[j] += 1
                     go[i] *= -1
                     go[j] *= -1
 
@@ -23,7 +29,7 @@ def goant():
             if locs[i] > L or locs[i] <0:
                 temp.append(ids[i])
                 temp_idx.append(i)
-
+        temp_idx.sort(reverse=True)
         for i in temp_idx:
             del ids[i]
             del locs[i]
