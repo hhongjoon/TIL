@@ -1,61 +1,47 @@
 def goant():
-    global falls
-    while len(locs)>0:
-        for i in range(len(locs)):
-            if go[i] >0 :
-                locs[i] += 1
+    while True:
+        for i in range(len(data)-1):   #  부호변환
+            if data[i+1][0] - data[i][0] <= 1 and go[i] >0 and go[i+1]<0:
+                data[i+1],data[i] = data[i], data[i+1]
+                go[i] *= -1
+                go[i+1] *= -1
+        for i in range(len(data)-1):  # 만났을 때 부호 변환
+            if data[i][0] == data[i+1][0] :
+                go[i]*= -1
+                go[i+1] *= -1
+
+        for i in range(len(data)):  # 이동
+            if go[i]>0:
+                data[i][0] += 1
             else:
-                locs[i] -= 1
-
-        for i in range(len(locs)):
-            for j in range(i+1,len(locs)):
-                if locs[i] == locs[j]:
-                    go[i] *= -1
-                    go[j] *= -1
-                if locs[j] - locs[i] <=1 and go[i]*go[j] == -1 and go[i]>go[j]:
-                    if locs[j] -locs[i] >0:
-                        locs[j] -= 1
-                        locs[i] += 1
-                    else:
-                        locs[i] -= 1
-                        locs[j] += 1
-                    go[i] *= -1
-                    go[j] *= -1
-
-
-        temp=[]
-        temp_idx=[]
-        for i in range(len(locs)):
-            if locs[i] > L or locs[i] <0:
-                temp.append(ids[i])
-                temp_idx.append(i)
-        temp_idx.sort(reverse=True)
-        for i in temp_idx:
-            del ids[i]
-            del locs[i]
+                data[i][0] += -1
+        temp = []
+        for i in range(len(data)-1, -1, -1):
+            if data[i][0] < 0 or data[i][0] >L:
+                temp.append(data[i][1])
+                del data[i]
         temp.sort()
+        global falls
         falls += temp
-        if len(falls)>=k:
+        if len(falls)>k:
             return falls[k-1]
 
 
 
 T = int(input())
 for _ in range(T):
-    global N, k
+    global N, L, k
     N, L, k = map(int,input().split())
-    locs = []
-    ids = []
+    data = []
     go = []
-    falls = []
-
+    falls=[]
     for i in range(N):
         loc, id = map(int,input().split())
-        locs.append(loc)
-        ids.append(id)
-        if id<0:
+        data.append([loc,id])
+        if id < 0:
             go.append(-1)
         else:
             go.append(1)
-
+    # print(data)
+    # data.sort(key=lambda aaa:aaa[0], reverse=True)
     print(goant())

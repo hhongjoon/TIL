@@ -67,20 +67,8 @@ for _ in range(T):
 
 
     for i in range(chance):
-        # s_w, s_b = score()
-        # if s_w +s_b == size*size:
-        #     continue
         y, x ,dol = map(int,input().split())
         cal(x,y,dol)
-
-
-        # print(i+1)
-        # for j in range(len(mat)):
-        #     print(mat[j])
-        #
-        # print()
-
-
 
     s_w, s_b = score()
 
