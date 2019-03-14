@@ -27,8 +27,15 @@ for i in range(M):
     else:
         mat[s].append(g)
 
-print(mat)
+    if mat.get(g) is None:
+        mat[g]=[s]
+    else:
+        mat[g].append(s)
+
+
+
+# print(mat)
 
 visited = []
 dfs(1)
-print(visited)
+print(len(visited)-1)
