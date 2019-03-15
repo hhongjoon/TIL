@@ -4,31 +4,33 @@ def iswall(x,y):
     return True
 
 
-def findpath(x,y,i,pathM,flag):
+def findpath(x,y,i,pathM,flag,cnt):
 
     while True:
-        if iswall(x,y) and mat[x][y]==0:
+        if iswall(x,y) and pathM[x][y]==0:
             flag=True
-            pathM.append((x,y))
-            return pathM, flag
-        if mat[x][y] == 1 or (x,y)in pathM:
-            return pathM, flag
-        if mat[x][y] == 0:
-            pathM.append((x,y))
+            cnt+=1
+            pathM[x][y]=2
+            return pathM, flag ,cnt
+        if pathM[x][y] == 1 or pathM[x][y] ==2:
+            return pathM, flag ,cnt
+        if pathM[x][y] == 0:
+            pathM[x][y]=2
+            cnt+=1
             x+= dx[i]
             y+= dy[i]
 
-def cal(I,C,M):     # 인풋,카운트, 지도좌표
+def cal(I,C,M,cnt):     # 인풋,카운트, 지도좌표
 
-
+    global maxcnt
     if I == len(cores):
         if C >= maxcnt:
-            global maxcnt
-            ans.append((C,len(M)))
+
+            ans.append((C,cnt))
             maxcnt = C
             # print(M, len(M))
         return
-    global cores, dx, dy
+
     now = cores[I]
     x = now[0]
     y = now[1]
@@ -37,23 +39,22 @@ def cal(I,C,M):     # 인풋,카운트, 지도좌표
     #     return cal(I + 1, C + 1, M)
 
     for i in range(4):
-
-        copyM = M[:]
-        # print(x, y, copyM)
+        copyM = [M[i][:] for i in range(size)]
         nx = x+dx[i]
         ny = y+dy[i]
 
         flag = False
-        result = findpath(nx,ny,i,copyM,flag)
+        result = findpath(nx,ny,i,copyM,flag,cnt)
         if result[1] == True:
 
-
-            # print(x,y,tempM)
-            cal(I+1,C+1,result[0])
+            tempM = result[0]
+            plus = result[2]
+            # print(x,y,plus)
+            cal(I+1,C+1,tempM,plus)
 
         else:
-            # print(x, y, M)
-            cal(I+1,C,M)
+            # print(x, y, cnt)
+            cal(I+1,C,copyM,cnt)
 
 
 T = int(input())
@@ -72,12 +73,12 @@ for _ in range(T):
             if mat[i][j] == 1:
                 # print(i,j,'안풋')
                 cores.append((i,j))
-    temp=[]
+
     ans=[]
-    global maxcnt
+
     maxcnt = -1
 
-    cal(0,0,temp)
+    cal(0,0,mat,0)
 
     goal_ea = ans[-1][0]
 
@@ -89,4 +90,3 @@ for _ in range(T):
 
 
     print("#{} {}".format(_+1,mingoal))
-
