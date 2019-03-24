@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f720e633-18c4-40c9-a6de-0202a07f0aae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BAEK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BAEK/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="f720e633-18c4-40c9-a6de-0202a07f0aae" name="Default Changelist" comment="" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,39 +20,39 @@
     <session id="-1178272372">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="40" />
+          <entry key="py" value="42" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="40" />
+          <entry key="Python" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="" value="5" />
-          <entry key="Python Console" value="78" />
+          <entry key="Python Console" value="152" />
           <entry key="dummy" value="4" />
-          <entry key="py" value="22246" />
+          <entry key="py" value="23057" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="22329" />
+          <entry key="Python" value="23214" />
         </counts>
       </usages-collector>
     </session>
@@ -90,12 +94,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TST/SW/홍준이의 숫자놀이.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="170">
               <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+=======
+            <state relative-caret-position="160">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TST/SW/벽돌깨기.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,6 +114,31 @@
               <folding>
                 <marker date="1553432529451" expanded="true" signature="105:106" ph="..." />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/190320AD/보물상자 비밀번호.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/190320AD/은행업무.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/190320AD/은행업무2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="31" selection-end-column="58" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
             </state>
           </provider>
         </entry>
@@ -177,14 +212,24 @@
         <option value="$PROJECT_DIR$/TST/SW/홍준이의 숫자놀이.py" />
         <option value="$PROJECT_DIR$/190320AD/보물상자 비밀번호.py" />
         <option value="$USER_HOME$/Downloads/sample_input (1).txt" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/TST/SW/벽돌깨기.py" />
+=======
+        <option value="$PROJECT_DIR$/190320AD/은행업무.py" />
+        <option value="$PROJECT_DIR$/190320AD/은행업무2.py" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
+<<<<<<< HEAD
     <option name="width" value="697" />
     <option name="height" value="735" />
+=======
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -192,7 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +247,7 @@
             <path>
               <item name="HJ_AL" type="b2602c69:ProjectViewProjectNode" />
               <item name="HJ_AL" type="462c0819:PsiDirectoryNode" />
-              <item name="BAEK" type="462c0819:PsiDirectoryNode" />
+              <item name="190320AD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HJ_AL" type="b2602c69:ProjectViewProjectNode" />
@@ -220,6 +264,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +283,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.벽돌깨기">
+=======
+  <component name="RunManager" selected="Python.은행업무2">
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
     <configuration name="홍준이의 숫자놀이" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HJ_AL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -302,7 +351,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="벽돌깨기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="은행업무" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
       <module name="HJ_AL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,11 +363,15 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TST/SW" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190320AD" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TST/SW/벽돌깨기.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190320AD/은행업무.py" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,7 +380,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="암호코드스캔3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="은행업무2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
       <module name="HJ_AL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,11 +392,15 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TST/SW" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190320AD" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TST/SW/암호코드스캔3.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190320AD/은행업무2.py" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -344,7 +409,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="SW_오셀로" type="PythonConfigurationType" factoryName="Python">
+=======
+    <configuration name="단순2진암호코드" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
       <module name="HJ_AL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -356,7 +425,69 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TST/SW/SW_오셀로.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TST/SW/단순2진암호코드.py" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="SW_입국심사" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="암호코드스캔3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
+      <module name="HJ_AL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TST/SW" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TST/SW/SW_입국심사.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TST/SW/암호코드스캔3.py" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="벽돌깨기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="SW_오셀로" type="PythonConfigurationType" factoryName="Python">
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
+      <module name="HJ_AL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TST/SW" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TST/SW/벽돌깨기.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TST/SW/SW_오셀로.py" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -386,63 +517,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="벽돌깨기" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HJ_AL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TST/SW" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TST/SW/벽돌깨기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test암호스캔" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HJ_AL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TST/SW" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TST/SW/test암호스캔.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.SW_오셀로" />
       <item itemvalue="Python.암호코드스캔" />
-      <item itemvalue="Python.test암호스캔" />
       <item itemvalue="Python.암호코드스캔3" />
       <item itemvalue="Python.홍준이의 숫자놀이" />
+<<<<<<< HEAD
       <item itemvalue="Python.벽돌깨기" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.벽돌깨기" />
+=======
+      <item itemvalue="Python.은행업무" />
+      <item itemvalue="Python.은행업무2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.은행업무2" />
+        <item itemvalue="Python.은행업무" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
         <item itemvalue="Python.홍준이의 숫자놀이" />
         <item itemvalue="Python.암호코드스캔3" />
         <item itemvalue="Python.암호코드스캔" />
-        <item itemvalue="Python.test암호스캔" />
       </list>
     </recent_temporary>
   </component>
@@ -460,13 +557,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.112351194" />
+=======
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16346154" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.43349755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34318554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -474,6 +579,15 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32840723" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2850877" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48464912" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.67487687" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -628,6 +742,7 @@
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/TST/SW/벽돌깨기.py</url>
           <line>80</line>
           <option name="timeStamp" value="83" />
@@ -641,6 +756,31 @@
           <url>file://$PROJECT_DIR$/TST/SW/벽돌깨기.py</url>
           <line>72</line>
           <option name="timeStamp" value="88" />
+=======
+          <url>file://$PROJECT_DIR$/190320AD/은행업무.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/190320AD/은행업무.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/190320AD/은행업무.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/190320AD/은행업무.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/190320AD/은행업무2.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="73" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -904,8 +1044,13 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/sample_input (1).txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state>
           <caret selection-end-line="4" />
+=======
+        <state relative-caret-position="160">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
         </state>
       </provider>
     </entry>
@@ -925,6 +1070,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/190320AD/보물상자 비밀번호.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
@@ -944,6 +1090,24 @@
           <folding>
             <marker date="1553432529451" expanded="true" signature="105:106" ph="..." />
           </folding>
+=======
+        <state relative-caret-position="224">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190320AD/은행업무.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190320AD/은행업무2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="31" selection-end-column="58" />
+>>>>>>> ad70b24ac5694e833c846d87dc1e45ad9024cf1e
         </state>
       </provider>
     </entry>
