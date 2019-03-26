@@ -38,7 +38,7 @@ for _ in range(T):
     goal = guests.pop(0)
     # print(guests, st, goal)
     total = 0
-    mindis = 999999999999999999999999
+    mindis = 999999999
     perm(N,0,0,st)
     print(mindis,'최소')
     print(total,'횟수')

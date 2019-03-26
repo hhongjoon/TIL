@@ -1,16 +1,17 @@
 def roma(n,rem,res,card):
-    if card == 4:
-        return
     if rem == 0:
         if res not in result:
             result.append(res)
         return
-    else:
-        for i in range(rem):
-            plus = (datas[card]) * (n-i)
-            roma(n,,res+plus,card+1)
 
-    pass
+    if card == 4:
+        return
+
+    else:
+        for i in range(rem+1):
+            plus = (datas[card]) * i
+            roma(n,rem-i,res+plus,card+1)
+
 result = []
 datas = [1,5,10,50]
 N = int(input())
