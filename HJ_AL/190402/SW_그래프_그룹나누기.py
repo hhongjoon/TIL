@@ -19,7 +19,7 @@ for _ in range(T):
         # else:
         #     groups[b] = findset(a)
 
-        groups[findset(b)] = findset(a)
+        groups[findset(b)] = findset(a) # 대입, 부모값도 대표값으로
         print(groups)
 
     cnt = 0
