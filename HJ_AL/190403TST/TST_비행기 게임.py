@@ -19,8 +19,6 @@ def bfs(x,y,cnt,bomb,bcnt):
 
             continue
 
-
-
         for i in range(3):
             nx = x + dx[i]
             ny = y + dy[i]
