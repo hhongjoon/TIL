@@ -1,53 +1,35 @@
-def dfs1(n):
-    if n == N:
-        print(*dice)
+
+def comb(n,k,floor):  # n: 기준 k:현재길이/ 층
+    global flag, maxfloor
+    if not flag:
         return
-    for i in range(1, 7):
-        dice[n] = i
-        dfs1(n + 1)
 
-
-# 중복조합
-def dfs2(n, k):
-    if n == N:
-        print(*dice)
+    if n == k:
+        # print('@@@@@@@@@')
+        maxfloor = max(maxfloor,floor)
         return
-    for i in range(k, 7):
-        dice[n] = i
-        dfs2(n + 1, i)
+    else:
+        for i in range(k+1,N+1):
+            temp = datas[k:i]
+            if len(temp) ==0: continue
+            if len(temp)== 1 and i != N:
+                if temp[0] != 2: continue
 
+            if len(temp) == 2 and (temp.count(1) == 2 or temp.count(3) == 2) :
+                if i != N:
+                    flag = False
+            # print(temp)
+            comb(n,i,floor+1)
 
-# 순열
-def dfs3(n):
-    if n == N:
-        print(*dice)
-        return
-    for i in range(1, 7):
-        if visit[i]: continue
-        dice[n] = i
-        visit[i] = 1
-        dfs3(n + 1)
-        visit[i] = 0
-
-
-# 조합
-def dfs4(n, k):
-    if n == N:
-        print(*dice)
-        return
-    for i in range(k, 7):
-        dice[n] = i
-        dfs4(n + 1, i + 1)
-
-
-# main
-N, M = map(int, input().split())
-visit = [0] * 7
-dice = [0] * N
-
-if M == 1:
-    dfs1(0)
-elif M == 2:
-    dfs2(0, 1)
-elif M == 3:
-    dfs3(0)
+T = int(input())
+for _ in range(T):
+    N = int(input())
+    datas = list(map(int,input().split()))
+    A = [0]*len(datas)
+    flag = True
+    maxfloor = -1
+    comb(N,0,0)
+    if flag:
+        print(maxfloor)
+    else:
+        print(-1)
