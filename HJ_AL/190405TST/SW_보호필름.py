@@ -1,5 +1,4 @@
 
-
 def cal():
     global K
     tempmat = [ mat[i][:]  for i in range(X) ]
@@ -65,3 +64,6 @@ for _ in range(1,T+1):
     mincnt = 999999
     powerset(X,0,0)
     print("#{} {}".format(_,mincnt))
+
+#
+tttest = [ [ [0]*5 for j in range(10)] for i in range(10) ]

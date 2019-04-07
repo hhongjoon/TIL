@@ -13,7 +13,7 @@ def cal():
     b.sort()
     # print(a, 'a')
     # print(b, 'b')
-    chk_a, chk_b =0,0
+    chk_a, chk_b =0,0 # 걸린시간 들
 
 
     if len(a)>0:

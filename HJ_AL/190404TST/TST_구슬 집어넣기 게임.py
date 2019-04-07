@@ -18,7 +18,7 @@ def dfs(a,b,cnt):
 
 
     while len(Q)>0:
-        temp = Q.pop()
+        temp = Q.pop()  # dfs bfs 여기만 바꾸면 됨
         rx, ry = temp[0]
         bx, by = temp[1]
         cnt = temp[2]

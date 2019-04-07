@@ -27,6 +27,7 @@ def calpower(loc):
 
 def perm(n,k,loc):
     if n == k:
+        print(loc)
         cnt = calpower(loc)
         global mincnt
         if mincnt>cnt:

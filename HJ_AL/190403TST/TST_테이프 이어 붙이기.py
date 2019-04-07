@@ -14,8 +14,6 @@ def powerset(n,k,cnt,c):
 
         powerset(n,k+1,cnt,c)
 
-
-
 N = int(input())
 datas = list(map(int,input().split()))
 summ = sum(datas)
