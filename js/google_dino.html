@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="my">
+
+    </div>
+    <button id="this-button">Click me</button>
+    <script>
+
+
+        const button = document.querySelector('#this-button')
+
+        button.addEventListener('click', event => {
+            const area = document.querySelector('#my')
+            // 3. 어떻게 ==> 뿅할까
+            area.innerHTML = '<h1>뿅</h1>'
+        })
+    </script>
+
+</body>
+</html>
+
+<!-- 무엇을 언제 어떻게 한다.
+
+-->

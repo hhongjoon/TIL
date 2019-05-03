@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        img {
+            width: 300px;
+            height: 300px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <h1>댕댕이</h1>
+    
+    <div class="button" id = 'dog'>dogclick</div>
+    <div class="button" id = 'cat'>catclick</div>
+    <div class="dogs"></div>
+    <div class="cats"></div>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+    <script>
+        const getDogImg = function(){
+            axios.get('https://dog.ceo/api/breeds/image/random')
+            // 응답은 내용의 response.data.message 를 반환하고,
+            .then(response => response.data.message)
+            // 반환된 내용을 url로 담아서
+            .then(url => {
+                //image tag 를 만들고
+                const imgTag = document.createElement('img')
+                //url을 이미지 src로 달고
+                imgTag.src = url
+                //원하는 위치(animals)에 붙이자.
+                document.querySelector('.dogs').append(imgTag)
+            })
+
+        }
+
+        const getCatImg = function(){
+            axios.get('https://api.thecatapi.com/v1/images/search')
+            // 응답은 내용의 response.data.message 를 반환하고,
+            .then(response => response.data[0].url )
+            
+            // 반환된 내용을 url로 담아서
+            .then(url => {
+                //image tag 를 만들고
+                const imgTag = document.createElement('img')
+                //url을 이미지 src로 달고
+                imgTag.src = url
+                //원하는 위치(animals)에 붙이자.
+                document.querySelector('.cats').append(imgTag)
+            })
+
+        }
+
+        dog.addEventListener('click', event => getDogImg())
+        cat.addEventListener('click', event => getCatImg())
+
+        axios.get('https://ssafy/daejeon/2/posts')
+
+
+        
+    </script>
+
+    
+
+
+</body>
+</html>

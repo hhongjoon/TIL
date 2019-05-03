@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button id="myButton">clickme</button>
+    <script>
+        var button = document.getElementById('myButton')
+        button.addEventListener('click', function() {
+            console.log('button clicked!')
+        })
+        // 일급객체의 조건
+        // 변수에 담을 수 있어야함.
+        // 인자로 전달할 수 있어야함
+        // 반환 값으로 전달한다.
+
+        const fco = function() { // 1. fco에 함수 저장
+            return n => n+1   // 3. return value가 익명함수
+        }
+        console.log(fco)    // 2. fco가 console.log() 함수의 인자로 전달됨
+
+        setTimeout(function() {
+            console.log('3초 후 출력된다.')
+        }, 3000)
+        
+
+
+
+    </script> 
+    
+</body>
+</html>
