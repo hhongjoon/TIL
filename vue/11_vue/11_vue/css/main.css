@@ -1,0 +1,45 @@
+/* sticky footer 를 위한 flex 처리 */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#app {
+    flex: 1 0 auto;
+}
+
+/* Vue icon Color*/
+i.fa-vuejs {
+    color: #41b883;
+}
+
+
+/* header */
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+/**/
+
+/* footer 색깔 지정 */
+footer {
+    background-color: #41b883;
+    color: white;
+    flex-shrink: 0;
+}
+
+footer > div.footer-copyright {
+    background-color: #36495D;
+    color: white;
+}
+
