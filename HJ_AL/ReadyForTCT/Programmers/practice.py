@@ -1,6 +1,5 @@
 
 
-a = "abcd"
-for i in a:
-    print(i)
-print(a[0])
+aa = {"a":1}
+e = aa.update("a")
+print(e)
