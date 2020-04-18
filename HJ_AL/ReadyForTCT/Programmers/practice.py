@@ -1,5 +1,5 @@
 
 
-aa = {"a":1}
-e = aa.update("a")
-print(e)
+for i in range(1,6):
+    print(i)
+    [0,1,-1,-1,-1]
